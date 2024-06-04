@@ -2,8 +2,6 @@ function csvToJSON(csv_string) {
   // 1. 문자열을 줄바꿈으로 구분 => 배열에 저장
   const rows = csv_string.split("\r\n");
 
-  console.log(rows);
-
   // 줄바꿈을 \n으로만 구분해야하는 경우, 아래 코드 사용
   // const rows = csv_string.split("\n");
 
